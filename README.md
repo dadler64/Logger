@@ -50,7 +50,7 @@ Log file names are formatted as `<yyyy-MM-dd>_<HHmmss>_<filename>.log`.
   - [ ] `debugln()` shows class name and file number.
   
 ## Maven Usage
- ```
+ ```xml
  <dependency>
   <groupId>com.adlerd.logger</groupId>
   <artifactId>Logger</artifactId>
@@ -59,16 +59,18 @@ Log file names are formatted as `<yyyy-MM-dd>_<HHmmss>_<filename>.log`.
  ```
 
 ## How To Use
-  * Start logging to a file: `Logger.start();`
-  * Start logging to a file name you want: `Logger.start("filename");`
-  * Stop logging to a file: `Logger.close();` 
-  * Output information: `Logger.infoln("example output");` 
-  * Output debugger info (WIP): `Logger.debuglnln("example output");` 
-  * Output warning: `Logger.warnln("example output");` 
-  * Output error that does not quit: `Logger.errorln("example error");` 
-  * Output error that quits with a status of '-1': `Logger.errorln("example error", true);` 
-  * Output error that quits with a status of '-6': `Logger.errorln("example error", true, -6);` 
-  * Output error that handles an exception: `Logger.errorln(exception , false);` 
+| Action                                         | Code                                         |
+|------------------------------------------------|----------------------------------------------|
+| Start logging to a file:                       | `Logger.start();`                            |
+| Start logging to a file name you want:         | `Logger.start("filename");`                  |
+| Stop logging to a file:                        | `Logger.close();`                            |
+| Output information:                            | `Logger.infoln("example output");`           |
+| Output debugger info (WIP):                    | `Logger.debuglnln("example output");`        | 
+| Output warning:                                | `Logger.warnln("example output");`           |
+| Output error that does not quit:               | `Logger.errorln("example error");`           |
+| Output error that quits with a status of '-1': | `Logger.errorln("example error", true);`     |
+| Output error that quits with a status of '-6': | `Logger.errorln("example error", true, -6);` |
+| Output error that handles an exception:        | `Logger.errorln(exception , false);`         |
 
 ## Contributing
   For now if you would like to contribute check out any open [issues](https://github.com/dadler64/Logger/issues) which could be resolved.
