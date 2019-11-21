@@ -30,6 +30,7 @@
 <p align="center">
   <a href="#about">About</a> •
   <a href="#features">Features</a> •
+  <a href="#maven-usage">Maven Usage</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#contributing">Contributing</a>
 </p>
@@ -47,6 +48,15 @@ Log file names are formatted as `<yyyy-MM-dd>_<HHmmss>_<filename>.log`.
   - [x] Formatted log files for easier viewing.
   - [ ] Ability to set custom logging level.
   - [ ] `debugln()` shows class name and file number.
+  
+## Maven Usage
+ ```
+ <dependency>
+  <groupId>com.adlerd.logger</groupId>
+  <artifactId>Logger</artifactId>
+  <version>1.0.0</version>
+</dependency>
+ ```
 
 ## How To Use
   * Start logging to a file: `Logger.start();`
