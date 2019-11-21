@@ -40,6 +40,8 @@ I wanted to log my programs but I did not like any of the ones out there and was
 easy to set up so I just made this simple logger to fill my needs for the time being. I plan on adding the ability to set a log 
 level later.
 
+Shout out to [zshel](https://github.com/zshel) for letting me use the SplitOutoutStream class from our school project [ProjectRICE](https://github.com/dadler64/ProjectRICE).
+
 Log file names are formatted as `<yyyy-MM-dd>_<HHmmss>_<filename>.log`.
 
 ## Features
