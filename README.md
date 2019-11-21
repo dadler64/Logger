@@ -48,9 +48,11 @@ level later.
 Log file names are formatted as `<yyyy-MM-dd>_<HHmmss>_<filename>.log`.
 
 ## Features
-  * Uses System.out/err to simplify logging.
-  * SplitOutputSream which sends the output stream to both System.out/err as well as a log file.
-  * Formatted log files for easier viewing.
+  - [x] Uses System.out/err to simplify logging.
+  - [x] SplitOutputSream which sends the output stream to both System.out/err as well as a log file.
+  - [x] Formatted log files for easier viewing.
+  - [ ] Ability to set custom logging level.
+  - [ ] `debugln()` shows class name and file number.
 
 ## How To Use
   * Start logging to a file: `Logger.start();`
