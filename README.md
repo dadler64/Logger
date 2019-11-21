@@ -1,34 +1,28 @@
 <!-- HEADER -->
 <h1 align="center">
-<!--
-  <br>
-    <a href=""><img src="src/main/resources/logger/logger-icon.png" alt="Logisim Icon"></a>
--->  
   <br>
     Logger
   <br>
 </h1>
 
-<h4 align="center">A super simple logger that formats and logs everything in System.out/err to both the console as well as a 
-file.</h4>
+<h4 align="center">
+  A super simple logger that formats and logs everything in System.out/err to both the console as well as a file.
+</h4>
 
 
 <!-- SHIELDS -->
 <p align="center">
     <!-- Issues -->    
     <a href="https://img.shields.io/github/issues/dadler64/Logger">
-        <img src="https://img.shields.io/github/issues/dadler64/Logger.svg"
-            alt="Logger Issues">
+        <img src="https://img.shields.io/github/issues/dadler64/Logger.svg" alt="Logger Issues">
     </a>
     <!-- License -->
     <a href="https://img.shields.io/github/license/dadler64/Logger">
-        <img src="https://img.shields.io/github/license/dadler64/Logger.svg"
-            alt="Logger License">
+        <img src="https://img.shields.io/github/license/dadler64/Logger.svg" alt="Logger License">
     </a>
     <!-- Release Version -->
       <a href="https://img.shields.io/github/release/dadler64/Logger">
-        <img src="https://img.shields.io/github/release/dadler64/Logger.svg"
-              alt="Release Version">
+        <img src="https://img.shields.io/github/release/dadler64/Logger.svg" alt="Release Version">
       </a>
 </p>
 
