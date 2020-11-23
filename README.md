@@ -75,4 +75,4 @@ Log file names are formatted as `<yyyy-MM-dd>_<HHmmss>_<filename>.log`.
 | Output error that handles an exception:        | `Logger.errorln(exception , false);`         |
 
 ## Contributing
-  For now if you would like to contribute check out any open [issues](https://github.com/dadler64/Logger/issues) which could be resolved.
+  For now if you would like to contribute check out any open [issues](https://github.com/dadler64/Logger/issues) which could be resolved or feel free to add any features you think would contribute to the project.
